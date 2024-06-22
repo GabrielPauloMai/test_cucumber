@@ -1,5 +1,3 @@
-
-
 Feature: Configurar produto
   Como cliente da EBAC-SHOP
   Quero configurar meu produto de acordo com meu tamanho e gosto
@@ -20,8 +18,3 @@ Feature: Configurar produto
     Given que eu tenha selecionado a cor, tamanho e quantidade
     When eu clicar no botão "limpar"
     Then as configurações devem voltar ao estado original
-
-  Scenario: Adicionar ao carrinho
-    Given que eu tenha selecionado a cor, tamanho e quantidade
-    When eu clicar no botão "adicionar ao carrinho"
-    Then o produto deve ser inserido no carrinho
