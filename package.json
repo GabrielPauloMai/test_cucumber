@@ -11,5 +11,8 @@
   "description": "",
   "devDependencies": {
     "@cucumber/cucumber": "^10.8.0"
+  },
+  "dependencies": {
+    "tree-sitter": "^0.21.1"
   }
 }
